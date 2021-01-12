@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false ,
+  msg_servicio_no_disponible: 'Servicio no disponible, intentelo más tarde nuevamente.',
+  urlApiRest: 'http://localhost:8080/',
 };
 
 /*

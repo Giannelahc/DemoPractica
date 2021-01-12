@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <app-form titulo="Login" [events]="eventsSubject.asObservable()" (enviarForm)="guardarForm($event)">
+                </app-form>
+                <div class="form-group">
+                    <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg" (click)="login()">Iniciar Sesión</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
